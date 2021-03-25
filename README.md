@@ -11,7 +11,7 @@ GENERAL
 INTERNAL
  INTERNAL.max = 999;
  INTERNAL.min = 900;
- INTERNAL.title = "Internal Hardhat errors";
+ INTERNAL.title = "Internal service errors";
  
 NETWORK
  NETWORK.max = 199;
