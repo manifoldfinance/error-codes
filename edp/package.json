@@ -1,0 +1,11 @@
+{
+  "name": "manifold-errorcodes",
+  "version": "0.1.0",
+  "description": "error coding list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sam",
+  "license": "Apache-2.0"
+}

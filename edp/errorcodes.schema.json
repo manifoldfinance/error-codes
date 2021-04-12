@@ -1,0 +1,200 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"GENERAL": {
+			"type": "object",
+			"properties": {
+				"min": {
+					"type": "integer"
+				},
+				"max": {
+					"type": "integer"
+				},
+				"title": {
+					"type": "string"
+				}
+			},
+			"required": ["min", "max", "title"]
+		},
+		"NETWORK": {
+			"type": "object",
+			"properties": {
+				"min": {
+					"type": "integer"
+				},
+				"max": {
+					"type": "integer"
+				},
+				"title": {
+					"type": "string"
+				}
+			},
+			"required": ["min", "max", "title"]
+		},
+		"TASK_DEFINITIONS": {
+			"type": "object",
+			"properties": {
+				"min": {
+					"type": "integer"
+				},
+				"max": {
+					"type": "integer"
+				},
+				"title": {
+					"type": "string"
+				}
+			},
+			"required": ["min", "max", "title"]
+		},
+		"ARGUMENTS": {
+			"type": "object",
+			"properties": {
+				"min": {
+					"type": "integer"
+				},
+				"max": {
+					"type": "integer"
+				},
+				"title": {
+					"type": "string"
+				}
+			},
+			"required": ["min", "max", "title"]
+		},
+		"RESOLVER": {
+			"type": "object",
+			"properties": {
+				"min": {
+					"type": "integer"
+				},
+				"max": {
+					"type": "integer"
+				},
+				"title": {
+					"type": "string"
+				}
+			},
+			"required": ["min", "max", "title"]
+		},
+		"SOLC": {
+			"type": "object",
+			"properties": {
+				"min": {
+					"type": "integer"
+				},
+				"max": {
+					"type": "integer"
+				},
+				"title": {
+					"type": "string"
+				}
+			},
+			"required": ["min", "max", "title"]
+		},
+		"BUILTIN_TASKS": {
+			"type": "object",
+			"properties": {
+				"min": {
+					"type": "integer"
+				},
+				"max": {
+					"type": "integer"
+				},
+				"title": {
+					"type": "string"
+				}
+			},
+			"required": ["min", "max", "title"]
+		},
+		"ARTIFACTS": {
+			"type": "object",
+			"properties": {
+				"min": {
+					"type": "integer"
+				},
+				"max": {
+					"type": "integer"
+				},
+				"title": {
+					"type": "string"
+				}
+			},
+			"required": ["min", "max", "title"]
+		},
+		"PLUGINS": {
+			"type": "object",
+			"properties": {
+				"min": {
+					"type": "integer"
+				},
+				"max": {
+					"type": "integer"
+				},
+				"title": {
+					"type": "string"
+				}
+			},
+			"required": ["min", "max", "title"]
+		},
+		"INTERNAL": {
+			"type": "object",
+			"properties": {
+				"min": {
+					"type": "integer"
+				},
+				"max": {
+					"type": "integer"
+				},
+				"title": {
+					"type": "string"
+				}
+			},
+			"required": ["min", "max", "title"]
+		},
+		"SOURCE_NAMES": {
+			"type": "object",
+			"properties": {
+				"min": {
+					"type": "integer"
+				},
+				"max": {
+					"type": "integer"
+				},
+				"title": {
+					"type": "string"
+				}
+			},
+			"required": ["min", "max", "title"]
+		},
+		"CONTRACT_NAMES": {
+			"type": "object",
+			"properties": {
+				"min": {
+					"type": "integer"
+				},
+				"max": {
+					"type": "integer"
+				},
+				"title": {
+					"type": "string"
+				}
+			},
+			"required": ["min", "max", "title"]
+		}
+	},
+	"required": [
+		"GENERAL",
+		"NETWORK",
+		"TASK_DEFINITIONS",
+		"ARGUMENTS",
+		"RESOLVER",
+		"SOLC",
+		"BUILTIN_TASKS",
+		"ARTIFACTS",
+		"PLUGINS",
+		"INTERNAL",
+		"SOURCE_NAMES",
+		"CONTRACT_NAMES"
+	]
+}
